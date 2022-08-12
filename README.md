@@ -10,10 +10,22 @@ yarn
 
 ```
 
-##### run: 
+##### run everything with docker: 
 
 ```
 
 docker-compose up
 
 ```
+
+
+##### run with vscode debug 
+
+- on terminal
+```
+ docker-compose up -f debug
+
+
+``` 
+- on vscode debug tab choose "Run Script: start:debug"
+

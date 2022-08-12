@@ -1,5 +1,5 @@
 export interface Profile {
-  id: string | number;
+  id: string;
   name: {
     givenName: string;
   };
